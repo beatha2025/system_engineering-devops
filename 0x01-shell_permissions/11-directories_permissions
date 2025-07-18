@@ -1,0 +1,8 @@
+#!/bin/bash
+# Add execute permission to all directories in current directory for owner, group, others
+
+for entry in */
+do
+  # Make sure it is a directory (ending with / ensures this)
+  chmod a+x "$entry"
+done
