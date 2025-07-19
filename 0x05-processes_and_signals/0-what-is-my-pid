@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+special variable in Bash that contains the PID of the current shell or script
 echo "$$"
