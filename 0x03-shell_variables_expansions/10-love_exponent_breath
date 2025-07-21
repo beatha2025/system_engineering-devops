@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(printf "%.0f" $(echo "$BREATH^$LOVE" | awk 'BEGIN{printf "%.0f\n", '"$BREATH"' ^ '"$LOVE"'}'))
+echo $(( BREATH ** LOVE ))
